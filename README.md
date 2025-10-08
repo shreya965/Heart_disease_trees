@@ -1,15 +1,16 @@
-Heart Disease Prediction Using Decision Tree and Random Forest
-Project Overview
+# Heart Disease Prediction Using Decision Tree and Random Forest
+
+## Project Overview
 
 This project aims to predict the presence of heart disease using a publicly available heart disease dataset. We build, evaluate, and interpret machine learning models, specifically Decision Tree and Random Forest classifiers. The notebook includes data preprocessing, model training, overfitting analysis, visualization, and feature importance interpretation.
 
-Dataset
+## Dataset
 
 The dataset contains 1025 patient records with 14 attributes, including demographic and medical features such as age, sex, cholesterol levels, resting blood pressure, and others.
 
 The target variable is target, indicating the presence (1) or absence (0) of heart disease.
 
-Key Steps
+## Key Steps
 
 Data Loading & Exploration
 
@@ -23,7 +24,7 @@ Apply one-hot encoding (dummy variables) to categorical features.
 
 Convert boolean columns to integer type for model compatibility.
 
-Model Training and Evaluation
+## Model Training and Evaluation
 
 Split the dataset into training and testing sets with stratification.
 
@@ -35,7 +36,7 @@ Train a Random Forest Classifier.
 
 Evaluate models using accuracy, classification report, confusion matrix, and cross-validation.
 
-Interpretation
+## Interpretation
 
 Visualize feature importance from the Random Forest model to identify key predictors.
 
@@ -47,7 +48,7 @@ Scikit-learn (DecisionTreeClassifier, RandomForestClassifier, model_selection, m
 
 Matplotlib & Seaborn (for visualizations)
 
-Results
+## Results
 
 Achieved high accuracy on test data with both Decision Tree and Random Forest models.
 
